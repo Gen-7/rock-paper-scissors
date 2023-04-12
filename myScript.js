@@ -1,4 +1,4 @@
-const random = ["Rock", "Paper", "Scissors"];
+const random = ["rock", "paper", "scissors"];
 
 //computer randomly chooses rock, paper, or scissors 
 function getComputerChoice() { 
@@ -18,7 +18,6 @@ const tie = "It's a tie!";
 function playRound(playerSelection, computerSelection) {
   //converts strings to lowercase making everything case-insensitive
   playerSelection = playerSelection.toLowerCase();
-  computerSelection = computerSelection.toLowerCase();
   const tie = "It's a tie!";
   console.log(playerSelection);
   console.log(computerSelection);
