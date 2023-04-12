@@ -84,8 +84,10 @@ function game() {
   else if(losses > wins) {
     return "Sorry! You lost!";
   }
-  else {
+  else if(wins == losses) {
     return "You tied! Try again!";
   }
 }
+
+//plays the game
 console.log(game());
